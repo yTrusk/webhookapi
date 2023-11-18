@@ -1,0 +1,29 @@
+{
+  "name": "liblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/modules/Logger/logger.ts",
+  "scripts": {
+    "test": "tsc && node dist/test/test.js",
+    "dev": "npx ts-node ./test/test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/node": "^7.80.1",
+    "@sentry/profiling-node": "^1.2.6",
+    "@sentry/tracing": "^7.80.1",
+    "@types/dotenv": "^8.2.0",
+    "@types/readline-sync": "^1.4.7",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "readline-sync": "^1.4.10",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
